@@ -12,3 +12,15 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+
+# Folders
+_obj
+_test
+bin/*
+pkg/*
+
+# Dont vendor everything
+src/github.com
+src/golang.org
+src/gopkg.in

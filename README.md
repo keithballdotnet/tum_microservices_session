@@ -1,2 +1,7 @@
-# tum_microservices_session
-A crash course on go services in kubernetes
+# TUM Microservices Session
+
+This repo contains some resources used for the session on go services in kubernetes.
+
+# Part I - First go service
+
+
