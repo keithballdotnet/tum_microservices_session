@@ -16,7 +16,7 @@ func main() {
 
 		fmt.Println("Responding to hello request...")
 		c.JSON(http.StatusOK, gin.H{
-			"message": "hello from local",
+			"message": "hello from minikube",
 		})
 
 	})

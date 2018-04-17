@@ -1,0 +1,3 @@
+# start minikube
+
+minikube start

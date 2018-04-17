@@ -16,9 +16,9 @@ func main() {
 
 		fmt.Println("Responding to hello request...")
 		c.JSON(http.StatusOK, gin.H{
-			"message": "hello",
+			"message": "hello from docker",
 		})
-		
+
 	})
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
